@@ -9,21 +9,80 @@
 </head>
 
 <body>
+  <img src="img/logo.jfif" />
+  <style>
+
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+
+  .dropdown-content a:hover {background-color: #f1f1f1}
+
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  </style>
+
+  <div class="dropdown">
+    <button class="dropbtn">Menu</button>
+    <div class="dropdown-content">
+      <a href="#">About Us</a>
+      <a href="#">Past Plays</a>
+      <a href="#">Branches</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Cast Info</a>
+    </div>
+  </div>
   <div class="container">
 
     <h2>Maidson Academic</h2>
-      <h1><em>Theatre</em></h1>
+    <h1><em>Theatre</em></h1>
 
-      <div class="container1">
-
-  <img src="./img/masks.png" />
-        <p>We are the Madison Academic Theatre Dept. We make plays :)</p>
+    <div class="container1">
 
 
-        <footer>
-          <h6>&copy Country Roads</h6>
-          <h6>Ran by: Zak Henson and Carlee Webb</h6>
-        </footer>
+      <p>We are the Madison Academic Theatre Dept. We make plays :)</p>
+
+
+      <footer>
+        <h6>&copy Country Roads</h6>
+        <h6>Ran by: Zak Henson and Carlee Webb</h6>
+      </footer>
 </body>
 
 </html>

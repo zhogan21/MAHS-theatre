@@ -25,5 +25,9 @@ footer {
   color: black;
   text-align: left;
   margin: 15px;
-
+}
+img {
+  height: 70px;
+  width: 200px;
+  float: left;
 }
