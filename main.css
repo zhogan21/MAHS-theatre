@@ -32,8 +32,6 @@ img {
   float: left;
 }
 
-
-
 .dropbtn {
   background-color: #c5b358;
   color: white;
@@ -41,8 +39,8 @@ img {
   font-size: 16px;
   border: none;
   cursor: pointer;
-  margin-left: -1550px;
-  margin-top: 80px;
+  margin-right: 1270px;
+  z-index: 5;
 }
 
 
@@ -59,9 +57,8 @@ img {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  margin-left: -810px;
+  margin-right: 1270px;
 }
-
 
 .dropdown-content a {
   color: black;
