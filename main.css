@@ -13,18 +13,9 @@ h1 {
   text-align: center;
 }
 
-.container {
-  color: black;
-}
-
-.container1 {
-  color: #005ce6;
-  width: 100%;
-}
-
 footer {
   color: black;
-  text-align: left;
+  text-align: right;
   margin: 15px;
 }
 image {
@@ -36,4 +27,17 @@ image {
 .title {
   text-align: center;
   position: relative;
+}
+
+.grid {
+  width: 200px;
+  height: 500px;
+  display: grid;
+  position: fixed;
+}
+
+.box {
+  background-color: white;
+  color: black;
+  z-index: 2;
 }
