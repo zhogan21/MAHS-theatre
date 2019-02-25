@@ -19,14 +19,6 @@ footer {
 }
 
 .grid image {
-<<<<<<< HEAD
-=======
-  height: 70px;
-  width: 200px;
-}
-
-.logo {
->>>>>>> 963e1de3c1134cce74d335a11451ddf665a342ab
   height: 70px;
   width: 200px;
 }
@@ -41,10 +33,6 @@ footer {
   width: 2 height: 70px;
   width: 200px;
   float: middle;
-<<<<<<< HEAD
-=======
-  00px;
->>>>>>> 963e1de3c1134cce74d335a11451ddf665a342ab
   height: 500px;
   display: grid;
   position: fixed;
