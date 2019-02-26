@@ -1,5 +1,5 @@
 body {
-  background-color: #c41e3a;
+  background-color: white;
   color: black;
   text-align: center;
   font-family: Verdana, sans-serif;
@@ -79,7 +79,8 @@ footer {
 }
 
 .prev {
-  margin-left: -400px
+  left: 0;
+  border-radius: 3px 0 0 3px;
 }
 
 .next {
