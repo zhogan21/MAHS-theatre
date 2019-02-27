@@ -137,7 +137,11 @@ footer {
 }
 
 .young {
-  margin-right: 50%;
+  display: inline-block;
+}
+
+.youngintro {
+  display: inline-block;
 }
 
 @-webkit-keyframes fade {
