@@ -31,13 +31,14 @@ footer {
   height: 70px;
   width: 200px;
 }
-
-
 .title {
   text-align: center;
   position: relative;
 }
-
+h4 {
+  font-family: 'Inconsolata', monospace;
+  text-align: left;
+}
 .grid {
   width: 2 height: 70px;
   width: 200px;
