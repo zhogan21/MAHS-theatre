@@ -75,13 +75,8 @@ footer {
   margin: 15px;
 }
 .grid image {
-  height: 70px;
-  width: 200px;
-}
-
-.logo {
-  height: 70px;
-  width: 200px;
+  height: 100%;
+  width: 100%;
 }
 .title {
   text-align: center;
@@ -93,9 +88,9 @@ h4 {
 }
 .grid {
   width: 2 height: 70px;
-  width: 200px;
+  width: 15%;
   float: middle;
-  height: 500px;
+  height: 60%;
   display: grid;
   position: fixed;
   text-decoration: none;
