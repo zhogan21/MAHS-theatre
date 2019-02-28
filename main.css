@@ -199,6 +199,11 @@ h4 {
   top: -160px;
 }
 
+.bio {
+	display: inline-block;
+	text-align: left;
+}
+
 @-webkit-keyframes fade {
   from {
     opacity: .4
