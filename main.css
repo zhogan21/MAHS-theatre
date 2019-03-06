@@ -82,6 +82,11 @@ footer {
   text-align: center;
   position: relative;
 }
+.zak {
+	margin-top: 4%;
+	margin-right: 45%;
+	font-family: 'Fira Sans', sans-serif;
+}
 h4 {
   font-family: 'Inconsolata', monospace;
   text-align: left;
@@ -99,6 +104,7 @@ h4 {
 .box_a, .box_b, .box_c, .box_d, .box_e, .box_f {
   background-color: white;
   color: black;
+	font-family: 'Fira Sans', sans-serif;
 }
 
 * {
