@@ -113,10 +113,9 @@ footer {
   position: relative;
 }
 
-.zak {
-  margin-top: 4%;
-  margin-right: 45%;
+.zak h2 {
   font-family: 'Source Code Pro', monospace;
+  font-size: 1.6em;
 }
 
 h4 {
