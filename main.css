@@ -103,9 +103,11 @@ footer {
   margin: 15px;
 }
 
+
+
 .grid image {
-  height: 100%;
-  width: 100%;
+  height: 100%!important;
+  width: 100%!important;
 }
 
 .title {
@@ -151,7 +153,9 @@ h4 {
 }
 
 .slideshow-container {
-  max-width: 800px;
+  max-width: 60%!important;
+  min-width: 30%!important;
+
   position: relative;
   margin: auto;
 }
@@ -225,6 +229,8 @@ h4 {
   animation-duration: 1.5s;
 }
 
+
+
 .young {
   display: inline-block;
   margin: 10px;
@@ -258,7 +264,13 @@ h4 {
 .flyintro h1 {
   text-align: right;
   margin: 0px;
+}
 
+.bird image {
+  max-width: 60%;
+  min-width: 50%;
+  max-height: 20%;
+  min-height: 10%;
 }
 
 @-webkit-keyframes fade {
