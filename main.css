@@ -100,12 +100,6 @@ nav {
   position: relative;
 }
 
-footer {
-  color: black;
-  text-align: right;
-  margin: 15px;
-}
-
 
 
 .grid image {
@@ -311,6 +305,19 @@ h4 {
   to {
     opacity: 1
   }
+}
+
+footer {
+  color: black;
+  text-align: right;
+  margin: 15px;
+}
+
+.social {
+  max-width: 10%;
+  min-width: 5%;
+  max-height: 10%;
+  min-height: 5%;
 }
 
 /* On smaller screens, decrease text size */
