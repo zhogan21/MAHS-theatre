@@ -81,7 +81,7 @@ nav {
   padding: 10px;
   border: 5px;
   overflow: hidden;
-  font-size: 1em;
+  font-size: 1.5vw;
 }
 .wootwoot {
   background-color: #99994d;
@@ -142,6 +142,7 @@ h4 {
   display: grid;
   position: fixed;
   text-decoration: none;
+  font-size: 1.5vw;
 }
 
 .grid:hover {
