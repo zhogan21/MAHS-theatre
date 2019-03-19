@@ -61,6 +61,10 @@ body {
   font-size: 24px;
 }
 
+p {
+  max-width:600px;
+}
+
 h1 {
   font-size: 2.5em;
   margin: 5px;
