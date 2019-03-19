@@ -335,10 +335,10 @@ footer {
   }
 
   .grid {
-    max-width: 100px;
-    min-width: 50px;
-    max-height: 200px;
-    min-height: 100px;
+    max-width: 10%;
+    min-width: 5%;
+    max-height: 15%;
+    min-height: 10%;
   }
 }
 
