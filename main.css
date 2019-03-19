@@ -108,7 +108,13 @@ nav {
   position: relative;
 }
 
-
+.buckaroo {
+  max-width: 40%;
+  min-width: 20%;
+  max-height: 95%;
+  min-height: 85%;
+  overflow: visible;
+}
 
 .grid image {
   height: 100%!important;
