@@ -333,6 +333,13 @@ footer {
   .prev, .next, .text {
     font-size: 11px
   }
+
+  .grid {
+    max-width: 100px;
+    min-width: 50px;
+    max-height: 200px;
+    min-height: 100px;
+  }
 }
 
 @media only screen and (width: 400px) {
