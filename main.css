@@ -69,15 +69,15 @@ h1 {
 }
 
 h6 {
-  font-size:1.5vw;
+  font-size: 1.5vw;
 }
 
 h2 {
-  font-size:1.5vw;
+  font-size: 1.5vw;
 }
 
 h1 {
-  font-size:3.5vw;
+  font-size: 3.5vw;
 }
 
 nav {
@@ -108,17 +108,9 @@ nav {
   position: relative;
 }
 
-.buckaroo {
-  max-width: 40%;
-  min-width: 20%;
-  max-height: 95%;
-  min-height: 85%;
-  overflow: visible;
-}
-
 .grid image {
-  height: 100%!important;
-  width: 100%!important;
+  height: 100% !important;
+  width: 100% !important;
 }
 
 .title {
@@ -150,9 +142,7 @@ h4 {
   font-size: 1.5vw;
 }
 
-.grid:hover {
-
-}
+.grid:hover {}
 
 .box_a, .box_b, .box_c, .box_d, .box_e, .box_f {
   background-color: white;
@@ -170,9 +160,8 @@ h4 {
 }
 
 .slideshow-container {
-  max-width: 60%!important;
-  min-width: 30%!important;
-
+  max-width: 60% !important;
+  min-width: 30% !important;
   position: relative;
   margin: auto;
 }
@@ -206,9 +195,8 @@ h4 {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.box_a{
-  opacity: 1!important;
-
+.box_a {
+  opacity: 1 !important;
 }
 
 .box_b:hover, .box_c:hover, .box_d:hover, .box_e:hover, .box_f:hover {
@@ -254,8 +242,6 @@ h4 {
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
-
 
 .young {
   display: inline-block;
@@ -338,13 +324,6 @@ footer {
 @media only screen and (max-width: 300px) {
   .prev, .next, .text {
     font-size: 11px
-  }
-
-  .grid {
-    max-width: 10%;
-    min-width: 5%;
-    max-height: 15%;
-    min-height: 10%;
   }
 }
 
