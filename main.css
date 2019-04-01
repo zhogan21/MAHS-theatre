@@ -62,7 +62,7 @@ body {
 }
 
 p {
-  max-width:500px;
+  max-width:600px;
 }
 
 h1 {
@@ -93,7 +93,7 @@ h1 {
   font-size: 3.5vw;
 }
 
-.introtheatre {
+.introboi {
   font-size:3.0vw;
 }
 
@@ -135,7 +135,7 @@ nav {
   position: relative;
 }
 
-.playtitles h2 {
+.zak h2 {
   font-family: 'Source Code Pro', monospace;
   font-size: 1.6em;
 }
@@ -147,7 +147,6 @@ h4 {
 
 .grid {
   width: 15%;
-  float: middle;
   height: 60%;
   max-width: 20%;
   min-width: 10%;
@@ -246,8 +245,6 @@ h4 {
   border-radius: 40%;
   display: inline-block;
   transition: background-color 0.6s ease;
-  position: relative;
-  bottom:50px;
 }
 
 .active, .dot:hover {
@@ -289,12 +286,9 @@ h4 {
 .flyintro {
   display: inline-block;
   position: relative;
+  top: -50px;
   text-align: right;
   font-size: 1vw;
-}
-
-.flyintro p {
-  margin-left:10%;
 }
 
 .flyintro h1 {
@@ -350,13 +344,27 @@ footer {
 
 .aboutthing {
   width:80%;
-  margin-left:12%;
+  margin-left:10%;
   margin-right:10%;
 }
 
-.behind {
-  width:200px;
-  height:200px;
+.castlist {
+  position:relative;
+  margin-right:40%;
+
+}
+
+.schedule {
+
+}
+
+.scheduleintro {
+  text-align:center;
+  position: relative;
+  margin-left:40%;
+  margin-right:35%;
+  font-size:2vw;
+
 }
 
 /* On smaller screens, decrease text size */
