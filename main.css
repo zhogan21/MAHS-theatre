@@ -349,6 +349,11 @@ footer {
   margin-right:10%;
 }
 
+.behind {
+  width:200px;
+  height:200px;
+}
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next, .text {
