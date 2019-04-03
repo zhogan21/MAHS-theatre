@@ -570,7 +570,13 @@ footer {
   }
 
   .dot {
-    opacity: 0;
+    display: none;
+  }
+
+.upcoming h2 {
+  font-size: 12px;
+  margin-top:-50px;
+}
 
   /* Fading animation */
   .fade {
@@ -622,6 +628,7 @@ footer {
     min-width: 50%;
     max-height: 20%;
     min-height: 10%;
+    margin-top: 50px;
   }
 
   .dramaintro p, .filmintro p {
