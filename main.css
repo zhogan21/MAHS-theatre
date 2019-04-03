@@ -343,7 +343,7 @@ footer {
 
 .menu2 ul li a {
   text-decoration: none;
-  font-size: 100% !important;
+  font-size: 1.5vw !important;
   font-family: arial;
   color: #1e1e1e;
   padding: 0 20px;
@@ -451,6 +451,10 @@ footer {
     margin-top: 10px;
   }
 
+.caleb, .jadon {
+  z-index:2;
+}
+
   .caleb {
     display: inline;
     position: relative;
@@ -483,6 +487,7 @@ footer {
     position: fixed;
     text-decoration: none;
     font-size: 10px;
+    z-index: 1;
   }
 
   .grid:hover {}
@@ -565,18 +570,7 @@ footer {
   }
 
   .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    background-color: #bbb;
-    border-radius: 40%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-
-  .active, .dot:hover {
-    background-color: #717171;
-  }
+    opacity: 0;
 
   /* Fading animation */
   .fade {
@@ -634,6 +628,15 @@ footer {
     margin-right: 26%;
     margin-left: 26%;
     font-size: 1.5vw;
+}
+    .menu2 ul li a {
+      text-decoration: none;
+      font-size: 8px !important;
+      font-family: arial;
+      color: #1e1e1e;
+      padding: 0 10px;
+      display: block;
+    }
   }
 
   @-webkit-keyframes fade {
