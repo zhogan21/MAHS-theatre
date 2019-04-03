@@ -443,7 +443,7 @@ footer {
     padding: 10px;
     border: 5px;
     overflow: hidden;
-    font-size: 1.5vw;
+    font-size: 10px;
   }
 
   .biggie {
@@ -700,6 +700,7 @@ footer {
     margin-right: 35%;
     font-size: 2vw;
   }
+
   @media only screen and (width: 400px) {
     .youngintro h2, .flyintro h2 {
       font-size: 9px
@@ -707,6 +708,7 @@ footer {
   }
 
   /* adjust for IPad Pro to iphonex */
+  
   @media only screen and (max-width: 1025px) {
     body {
       background-color: #ecd9c6;
@@ -961,5 +963,5 @@ footer {
       }
     }
 
-
+---/
 }
