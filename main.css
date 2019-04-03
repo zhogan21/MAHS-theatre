@@ -708,7 +708,7 @@ footer {
   }
 
   /* adjust for IPad Pro to iphonex */
-  
+  /*
   @media only screen and (max-width: 1025px) {
     body {
       background-color: #ecd9c6;
@@ -894,8 +894,9 @@ footer {
     font-size: 12px;
     margin-top:-50px;
   }
-
+*/
     /* Fading animation */
+    /*
     .fade {
       -webkit-animation-name: fade;
       -webkit-animation-duration: 1.5s;
@@ -962,6 +963,5 @@ footer {
         display: block;
       }
     }
-
----/
+*/
 }
