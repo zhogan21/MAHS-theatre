@@ -636,26 +636,15 @@ footer {
     margin-right: 26%;
     margin-left: 26%;
     font-size: 1.5vw;
-<<<<<<< HEAD
-=======
-}
-    .menu2 ul li a {
-      text-decoration: none;
-      font-size: 12px !important;
-      font-family: arial;
-      color: #1e1e1e;
-      padding: 0 10px;
-      display: block;
-    }
-    .aboutthing {
-      width: 80%;
-      margin-left: 10%;
-      margin-right: 10%;
-      font-size:4px !important;
-    }
->>>>>>> 694a45a569ea30e99544b129df11f04dfc337cf2
   }
-
+  .menu2 ul li a {
+    text-decoration: none;
+    font-size: 12px !important;
+    font-family: arial;
+    color: #1e1e1e;
+    padding: 0 10px;
+    display: block;
+  }
     .aboutthing {
       width: 80%;
       margin-left: 10%;
