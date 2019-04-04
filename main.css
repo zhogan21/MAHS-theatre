@@ -710,7 +710,7 @@ footer {
 }
 
   /* adjust for IPad Pro to iphonex */
-  /*
+
   @media only screen and (max-width: 1025px) {
     body {
       background-color: #ecd9c6;
@@ -736,7 +736,7 @@ footer {
       text-align: center;
       margin-right: 14%;
       margin-left: 14%;
-      font-size: 2vw;
+      font-size: 35px;
     }
 
     h6 {
@@ -744,7 +744,7 @@ footer {
     }
 
     h2 {
-      font-size: 1.5vw;
+      font-size: 55px;
       text-align: center;
     }
 
@@ -965,5 +965,4 @@ footer {
         display: block;
       }
     }
-*/
 }
