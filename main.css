@@ -422,7 +422,8 @@ footer {
   }
 
   h6 {
-    font-size: 1.5vw;
+    font-size: 18px;
+
   }
 
   h2 {
@@ -430,6 +431,9 @@ footer {
     text-align: center;
   }
 
+.infointro{
+  margin-top: -50px;
+}
   .introboi {
     font-size: 3.0vw;
   }
@@ -478,7 +482,7 @@ footer {
 
   h4 {
     font-family: 'Inconsolata', monospace;
-    text-align: left;
+    font-size: 12px;
   }
 
   .grid {
@@ -637,17 +641,6 @@ footer {
     margin-right: 26%;
     margin-left: 26%;
     font-size: 1.5vw;
-<<<<<<< HEAD
-  }
-  .menu2 ul li a {
-    text-decoration: none;
-    font-size: 12px !important;
-    font-family: arial;
-    color: #1e1e1e;
-    padding: 0 10px;
-    display: block;
-  }
-=======
 }
     .menu2 ul li a {
       text-decoration: none;
@@ -657,15 +650,11 @@ footer {
       padding: 0 14px;
       display: block;
     }
->>>>>>> 8dd4203ece48de1bc9426f695866370a48e98ca6
     .aboutthing {
       width: 80%;
       margin-left: 10%;
       margin-right: 10%;
-<<<<<<< HEAD
-=======
 
->>>>>>> 8dd4203ece48de1bc9426f695866370a48e98ca6
     }
   }
 
@@ -727,7 +716,7 @@ footer {
 }
 
   /* adjust for IPad Pro to iphonex */
-  /*
+
   @media only screen and (max-width: 1025px) {
     body {
       background-color: #ecd9c6;
@@ -915,7 +904,7 @@ footer {
   }
 */
     /* Fading animation */
-    /*
+
     .fade {
       -webkit-animation-name: fade;
       -webkit-animation-duration: 1.5s;
@@ -982,5 +971,4 @@ footer {
         display: block;
       }
     }
-*/
 }
