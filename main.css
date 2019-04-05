@@ -63,6 +63,7 @@ body {
 
 p {
   max-width: 600px;
+ font-size: 14px;
 }
 
 h1 {
@@ -657,10 +658,7 @@ footer {
       padding: 0 14px;
       display: block;
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> 67f3f71664150637a5ff0afd3c5109bf78aa42d9
     .aboutthing {
       width: 80%;
       margin-left: 10%;
@@ -738,6 +736,7 @@ footer {
 
     p {
       max-width: 600px;
+      font-size: 35px;
     }
 
     h1 {
