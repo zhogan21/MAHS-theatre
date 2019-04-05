@@ -378,6 +378,13 @@ footer {
   font-size: 2vw;
 }
 
+.social {
+  max-width: 10%;
+  min-width: 5%;
+  max-height: 10%;
+  min-height: 5%;
+}
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next, .text {
@@ -650,12 +657,21 @@ footer {
       padding: 0 14px;
       display: block;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 67f3f71664150637a5ff0afd3c5109bf78aa42d9
     .aboutthing {
       width: 80%;
       margin-left: 10%;
       margin-right: 10%;
 
     }
+    .social {
+      width: 40px;
+      height:40px;
+    }
+
   }
 
   @-webkit-keyframes fade {
@@ -682,13 +698,6 @@ footer {
     color: black;
     text-align: right;
     margin: 15px;
-  }
-
-  .social {
-    max-width: 10%;
-    min-width: 5%;
-    max-height: 10%;
-    min-height: 5%;
   }
 
   .aboutthing {
