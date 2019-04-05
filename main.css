@@ -63,6 +63,7 @@ body {
 
 p {
   max-width: 600px;
+ font-size: 14px;
 }
 
 h1 {
@@ -738,6 +739,7 @@ footer {
 
     p {
       max-width: 600px;
+      font-size: 35px;
     }
 
     h1 {
