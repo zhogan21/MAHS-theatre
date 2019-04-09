@@ -807,7 +807,7 @@ footer {
 
   /* adjust for IPad Pro to iphonex */
 
-  @media only screen and (max-width: 1025px) {
+  @media only screen and (max-width: 1030px) {
     body {
       background-color: #ecd9c6;
       color: black;
@@ -869,6 +869,7 @@ footer {
 
   .caleb, .jadon {
     z-index:2;
+
   }
 
     .caleb {
@@ -990,7 +991,7 @@ footer {
     }
 
   .upcoming h2 {
-    font-size: 12px;
+    font-size: 26px;
     margin-top:-50px;
   }
 */
