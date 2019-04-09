@@ -666,7 +666,7 @@ footer {
   .flyintro {
     display: inline-block;
     position: relative;
-    top: -50px;
+
     text-align: right;
     font-size: 1vw;
     display: none;
@@ -683,7 +683,7 @@ footer {
 
   .fly2 {
     display: inline-block;
-    margin: 10px;
+    margin: 60px;
     width: 30%;
     height: 30%;
 
@@ -693,13 +693,13 @@ footer {
     display: inline-block;
     position: relative;
 
-    text-align: right;
+    text-align: left;
     font-size: 1vw;
 
   }
 
   .flyintro2 h1 {
-    text-align: right;
+    text-align: left;
     margin: 0px;
 
 
@@ -720,11 +720,11 @@ footer {
 }
     .menu2 ul li a {
       text-decoration: none;
-      font-size: 12px !important;
+      font-size: 10px !important;
       font-family: arial;
       color: #1e1e1e;
-      padding: 0 14px;
-      display: block;
+      padding: 0 5px;
+
     }
 
     .aboutthing {
@@ -736,6 +736,7 @@ footer {
     .social {
       width: 40px;
       height:40px;
+      display: inline;
     }
 
   }
@@ -748,6 +749,7 @@ footer {
 
  footer h6 {
    font-size:10px;
+   display: block;
  }
 
   .aboutthing {
