@@ -94,7 +94,11 @@ h1 {
 }
 
 .infointro {
-   text-align: right;
+ 
+}
+
+.behindscene {
+  margin-top: 1%;
 }
 
 nav {
