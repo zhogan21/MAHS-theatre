@@ -357,6 +357,11 @@ h4 {
   font-size: 1.5vw;
 }
 
+.drama, .film {
+  width: 30%;
+  height: 15%;
+}
+
 @-webkit-keyframes fade {
   from {
     opacity: .4
@@ -869,7 +874,6 @@ footer {
 
   .caleb, .jadon {
     z-index:2;
-
   }
 
     .caleb {
@@ -1063,4 +1067,3 @@ footer {
         display: block;
       }
     }
-}
