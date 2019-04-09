@@ -714,9 +714,9 @@ footer {
   }
 
   .dramaintro p, .filmintro p {
-    margin-right: 26%;
-    margin-left: 26%;
-    font-size: 1.5vw;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-size: 12px;
 }
     .menu2 ul li a {
       text-decoration: none;
@@ -726,6 +726,13 @@ footer {
       padding: 0 5px;
 
     }
+
+.introtheatre h5 {
+  font-size: 12px!important;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: -80px;
+}
 
     .aboutthing {
       width: 80%;
