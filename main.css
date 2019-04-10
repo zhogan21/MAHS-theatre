@@ -304,6 +304,8 @@ h4 {
 
 .fly {
   display: inline-block;
+  position: relative;
+  bottom: 130px;
   margin: 10px;
   width: 10%;
   height: 10%;
@@ -503,7 +505,7 @@ footer {
   }
 
   h2 {
-    font-size: 1.5vw;
+    font-size: 20px;
     text-align: center;
   }
 
@@ -581,7 +583,7 @@ footer {
   }
 
   .grid {
-    width: 175px;
+    width: 150px;
     height: 60%;
     max-width: 20%;
     min-width: 10%;
@@ -725,10 +727,11 @@ footer {
 
   .fly {
     display: inline-block;
+    position: relative;
     margin: 10px;
     width: 130px;
     height: 175px;
-
+    bottom: 130px;
   }
 
   .flyintro p{
