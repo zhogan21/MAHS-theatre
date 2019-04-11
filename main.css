@@ -63,7 +63,7 @@ body {
 
 p {
   max-width: 600px;
- font-size: 14px;
+  font-size: 14px;
 }
 
 footer h6 {
@@ -98,13 +98,11 @@ h1 {
   font-size: 3.5vw;
 }
 
-.infointro {
+.infointro {}
 
-}
-.infointro h6{
+.infointro h6 {
   text-align: center;
   position: relative;
-
   font-size: 1vw;
 }
 
@@ -292,7 +290,6 @@ h4 {
 .youngintro {
   display: inline-block;
   position: relative;
-
   text-align: left;
   font-size: 1vw;
 }
@@ -322,11 +319,9 @@ h4 {
 .flyintro h1 {
   text-align: right;
   margin: 0px;
-
 }
 
 /* other fly */
-
 .fly2 {
   display: inline-block;
   margin: 10px;
@@ -348,7 +343,6 @@ h4 {
   text-align: right;
   margin: 0px;
   display: none;
-
 }
 
 .bird image {
@@ -427,7 +421,7 @@ footer {
 .castlist {
   position: relative;
   margin-left: 25%;
-  margin-right: 25%!important;
+  margin-right: 25% !important;
 }
 
 .schedule {}
@@ -450,8 +444,6 @@ footer {
 .schedule1, .schedule2, .schedule3 {
   display: inline;
 }
-
-
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
@@ -477,13 +469,13 @@ footer {
   }
 
   footer h6 {
-    font-size:14px;
+    font-size: 14px;
     display: block;
   }
 
   p {
     max-width: 600px;
-   font-size: 14px;
+    font-size: 14px;
   }
 
   h1 {
@@ -513,13 +505,11 @@ footer {
     font-size: 3.5vw;
   }
 
-  .infointro {
+  .infointro {}
 
-  }
-  .infointro h6{
+  .infointro h6 {
     text-align: center;
     position: relative;
-
     font-size: 1vw;
   }
 
@@ -599,7 +589,7 @@ footer {
     position: relative;
     font-size: 18px;
     margin-top: -40px;
-    margin-bottom:60px;
+    margin-bottom: 60px;
   }
 
   .grid:hover {}
@@ -712,10 +702,9 @@ footer {
     height: 175px;
   }
 
-  .youngintro p{
+  .youngintro p {
     display: inline-block;
     position: relative;
-
     text-align: left;
     font-size: 15px;
   }
@@ -734,10 +723,9 @@ footer {
     bottom: 130px;
   }
 
-  .flyintro p{
+  .flyintro p {
     display: inline-block;
     position: relative;
-
     text-align: right;
     font-size: 15px;
   }
@@ -745,11 +733,9 @@ footer {
   .flyintro h1 {
     text-align: right;
     margin: 0px;
-
   }
 
   /* other fly */
-
   .fly2 {
     display: inline-block;
     margin: 10px;
@@ -771,7 +757,6 @@ footer {
     text-align: right;
     margin: 0px;
     display: none;
-
   }
 
   .bird image {
@@ -849,7 +834,7 @@ footer {
   .castlist {
     position: relative;
     margin-left: 25%;
-    margin-right: 25%!important;
+    margin-right: 25% !important;
   }
 
   .schedule {}
@@ -872,9 +857,7 @@ footer {
   .schedule1, .schedule2, .schedule3 {
     display: inline;
   }
-
 }
-
 
 /* adjust for iphoneX and below */
 @media only screen and (max-width: 415px) {
@@ -889,7 +872,7 @@ footer {
 
   p {
     max-width: 600px;
-    font-size:13px;
+    font-size: 13px;
   }
 
   h1 {
@@ -909,7 +892,6 @@ footer {
 
   h6 {
     font-size: 18px;
-
   }
 
   h2 {
@@ -918,25 +900,26 @@ footer {
   }
 
   footer h6 {
-    font-size:10px;
+    font-size: 10px;
     display: block;
   }
 
-.infointro{
-  margin-top: -100px!important;
-  margin-right: 21%!important;
-  margin-left: 21%!important;
-}
+  .infointro {
+    margin-top: -100px !important;
+    margin-right: 21% !important;
+    margin-left: 21% !important;
+  }
+
   .introboi {
     font-size: 3.0vw;
   }
 
-.tirevideo .tire {
-  max-width: 320px;
-  min-width: 320px;
-  max-height: 200px;
-  min-height: 200px;
-}
+  .tirevideo .tire {
+    max-width: 320px;
+    min-width: 320px;
+    max-height: 200px;
+    min-height: 200px;
+  }
 
   nav {
     width: 100%;
@@ -957,7 +940,6 @@ footer {
     max-height: 200px;
     min-height: 200px;
   }
-
 
   .title {
     text-align: center;
@@ -1065,14 +1047,15 @@ footer {
 
   .dot {
     opacity: 0;
-}
+  }
 
-.upcoming h2 {
-  position: relative;
-  font-size: 14px;
-  margin-top: -80px;
-  margin-bottom:80px;
-}
+  .upcoming h2 {
+    position: relative;
+    font-size: 14px;
+    margin-top: -80px;
+    margin-bottom: 80px;
+  }
+
   /* Fading animation */
   .fade {
     -webkit-animation-name: fade;
@@ -1092,7 +1075,6 @@ footer {
   .youngintro {
     display: inline-block;
     position: relative;
-
     text-align: left;
     font-size: 1vw;
   }
@@ -1113,7 +1095,6 @@ footer {
   .flyintro {
     display: inline-block;
     position: relative;
-
     text-align: right;
     font-size: 1vw;
     display: none;
@@ -1123,33 +1104,26 @@ footer {
     text-align: right;
     margin: 0px;
     display: none;
-
   }
 
   /* other fly */
-
   .fly2 {
     display: inline-block;
     margin: 60px;
     width: 30%;
     height: 30%;
-
   }
 
   .flyintro2 {
     display: inline-block;
     position: relative;
-
     text-align: left;
     font-size: 1vw;
-
   }
 
   .flyintro2 h1 {
     text-align: left;
     margin: 0px;
-
-
   }
 
   .bird image {
@@ -1165,78 +1139,73 @@ footer {
     position: relative;
     width: 90%;
     left: 20px;
-
-}
-
-    .menu2 ul li a {
-      text-decoration: none;
-      font-size: 10px !important;
-      font-family: arial;
-      color: #1e1e1e;
-      padding: 0 5px;
-
-    }
-
-.introtheatre h5 {
-  font-size: 12px!important;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: -80px;
-}
-
-    .aboutthing {
-      width: 80%;
-      margin-left: 10%;
-      margin-right: 10%;
-
-    }
-    .social {
-      width: 40px;
-      height:40px;
-      display: inline;
-    }
-
   }
 
-  footer {
-    color: black;
-    text-align: right;
-    margin: 15px;
+  .menu2 ul li a {
+    text-decoration: none;
+    font-size: 10px !important;
+    font-family: arial;
+    color: #1e1e1e;
+    padding: 0 5px;
   }
 
- footer h6 {
-   font-size:10px;
-   display: block;
- }
-
-  .aboutthing {
-    width: 60%;
+  .introtheatre h5 {
+    font-size: 12px !important;
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: -80px;
   }
 
-  .castlist {
-    position: relative;
-    margin-right: 40%;
+  .aboutthing {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
-  .schedule {}
-
-  .scheduleintro {
-    text-align: center;
-    position: relative;
-    margin-left: 40%;
-    margin-right: 35%;
-    font-size: 2vw;
+  .social {
+    width: 40px;
+    height: 40px;
+    display: inline;
   }
+}
+
+footer {
+  color: black;
+  text-align: right;
+  margin: 15px;
+}
+
+footer h6 {
+  font-size: 10px;
+  display: block;
+}
+
+.aboutthing {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.castlist {
+  position: relative;
+  margin-right: 40%;
+}
+
+.schedule {}
+
+.scheduleintro {
+  text-align: center;
+  position: relative;
+  margin-left: 40%;
+  margin-right: 35%;
+  font-size: 2vw;
+}
 
 .infointro {
-  max-width:200px;
-  position:relative;
-  margin-left:100px;
+  max-width: 200px;
+  position: relative;
+  margin-left: 100px;
+}
 }
 
-
-}
-
-  /* adjust for IPad Pro to iphonex */
+/* adjust for IPad Pro to iphonex */
