@@ -359,8 +359,8 @@ h4 {
 }
 
 .dramaintro p, .filmintro p {
-  margin-right: 35%;
-  margin-left: 35%;
+  position: relative;
+  left: 200px;
   font-size: 1.5vw;
 }
 
@@ -782,8 +782,7 @@ footer {
   }
 
   .dramaintro p, .filmintro p {
-    margin-right: 35%;
-    margin-left: 35%;
+    margin: unset;
     font-size: 1.5vw;
   }
 
@@ -894,7 +893,8 @@ footer {
   }
 
   h1 {
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
     margin: 5px;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
@@ -1161,10 +1161,13 @@ footer {
   }
 
   .dramaintro p, .filmintro p {
-    margin-right: 20%;
-    margin-left: 20%;
     font-size: 12px;
+    position: relative;
+    width: 90%;
+    left: 20px;
+
 }
+
     .menu2 ul li a {
       text-decoration: none;
       font-size: 10px !important;
