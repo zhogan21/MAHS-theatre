@@ -769,6 +769,8 @@ footer {
   .dramaintro p, .filmintro p {
     margin: unset;
     font-size: 1.5vw;
+    position: relative;
+    left: 220px;
   }
 
   .drama, .film {
