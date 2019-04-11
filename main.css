@@ -862,6 +862,85 @@ footer {
   }
 }
 
+@media screen and (max-width: 759px) {
+
+  .young {
+    display: inline-block;
+    margin: 10px;
+    margin-top: 50px;
+    width: 130px;
+    height: 175px;
+  }
+
+  .youngintro p {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .youngintro h1 {
+    text-align: left;
+    margin: 0px;
+  }
+
+  .fly {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    width: 130px;
+    height: 175px;
+    bottom: 130px;
+    display: none;
+  }
+
+  .flyintro p {
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    font-size: 15px;
+    display: none;
+  }
+
+  .flyintro h1 {
+    text-align: right;
+    margin: 0px;
+    display: none;
+  }
+
+  /* other fly */
+  .fly2 {
+    display: inline-block;
+    margin: 10px;
+    width: 30%;
+    height: 30%;
+
+  }
+
+  .flyintro2 {
+    display: inline-block;
+    position: relative;
+
+    text-align: right;
+    font-size: 1vw;
+
+  }
+
+  .flyintro2 h1 {
+    text-align: left;
+    margin: 0px;
+    display: block;
+
+  }
+  .flyintro2 p {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    font-size: 15px;
+
+  }
+
+}
 /* adjust for iphoneX and below */
 @media only screen and (max-width: 415px) {
   body {
