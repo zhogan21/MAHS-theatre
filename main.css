@@ -354,8 +354,9 @@ h4 {
 
 .dramaintro p, .filmintro p {
   position: relative;
-  left: 35%;
+  margin: unset;
   font-size: 1.5vw;
+  left: 415px;
 }
 
 .drama, .film {
@@ -892,8 +893,17 @@ footer {
     font-size: 2vw;
   }
 
-  h6 {
+  .infointro2 h6 {
     font-size: 18px;
+    position: relative;
+    margin: 100px;
+    bottom: 180px;
+    margin-bottom: -180px;
+  }
+
+  .h6 {
+    font-size: 18px;
+    margin: unset;
   }
 
   h2 {
