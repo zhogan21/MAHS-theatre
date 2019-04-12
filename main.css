@@ -475,7 +475,9 @@ footer {
     font-size: 14px;
     display: block;
   }
-
+footer .menu2 ul li {
+  font-size: 2vw;
+}
   p {
     max-width: 600px;
     font-size: 14px;
@@ -944,6 +946,9 @@ nav h1 {
     font-size: 15px;
 
   }
+  footer .menu2 ul li {
+    font-size: 2vw;
+  }
 
 }
 /* adjust for iphoneX and below */
@@ -999,6 +1004,10 @@ nav h1 {
     font-size: 10px;
     display: block;
   }
+
+footer .menu2 ul li {
+  font-size: 12px;
+}
 
   .infointro {
     margin-top: -100px !important;
@@ -1272,7 +1281,7 @@ footer {
 }
 
 footer h6 {
-  font-size: 10px;
+  font-size: 8px;
   display: block;
 }
 
